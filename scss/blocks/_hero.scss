@@ -1,0 +1,17 @@
+.hero {
+    background: #014E56;
+    border: 2px solid transparent;  
+    background-image: url("../../images/hero-bg-img.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 0;
+    
+    &__span {
+        width: 50px;
+        height: 4px;
+        background: #F67E7E;
+    }
+
+    &--container {
+        padding-bottom: 140px;
+    }
+}
